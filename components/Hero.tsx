@@ -70,7 +70,7 @@ export function Hero() {
             <Dots></Dots>
           </div>
 
-          <div class="relative">
+          <div class="relative" style="max-height: 550px; width: auto;">
             <picture>
               <source
                 type="image/webp"
