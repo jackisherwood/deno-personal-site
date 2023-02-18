@@ -76,8 +76,13 @@ export function Hero() {
                 type="image/webp"
                 srcset={asset("/torso.webp")}
                 style="height: 550px; width: 374px;"
+                alt="photo of Jack Isherwood"
               />
-              <img src={asset("/torso.png")} style="height: 550px; width: 374px;" />
+              <img
+                src={asset("/torso.png")}
+                style="height: 550px; width: 374px;"
+                alt="photo of Jack Isherwood"
+              />
             </picture>
           </div>
         </div>

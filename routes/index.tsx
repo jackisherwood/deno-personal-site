@@ -10,6 +10,7 @@ export default function Home() {
     <>
       <Head>
         <title>Jack Isherwood</title>
+        <meta name="description">Hi, I'm Jack Isherwood. This is my personal website.</meta>
       </Head>
 
       <div class="bg-white">
