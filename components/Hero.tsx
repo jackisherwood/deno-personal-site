@@ -75,9 +75,9 @@ export function Hero() {
               <source
                 type="image/webp"
                 srcset={asset("/torso.webp")}
-                style="height: 550px;"
+                style="height: 550px; width: 374px;"
               />
-              <img src={asset("/torso.png")} style="height: 550px;" />
+              <img src={asset("/torso.png")} style="height: 550px; width: 374px;" />
             </picture>
           </div>
         </div>
