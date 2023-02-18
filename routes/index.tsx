@@ -107,7 +107,13 @@ export default function Home() {
                 </div>
 
                 <div class="relative">
-                  <img src={asset("/torso.png")} style="height: 550px;" />
+                <picture>
+                  <source type="image/webp" srcset={asset("/torso.webp")} style="height: 550px;" />
+                  <img
+                    src={asset("/torso.png")}
+                    style="height: 550px;"
+                  />
+                </picture>
                 </div>
               </div>
             </div>
