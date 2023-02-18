@@ -9,12 +9,6 @@ export default function Home() {
       </Head>
 
       <div class="bg-white">
-        <div class="h-20 w-20 flex items-center justify-center bg-blue-500 rounded-md text-white m-10">
-          <div class="text-7xl rotate-12 pb-1 pr-1">
-            J
-          </div>
-        </div>
-
         <main>
           <div class="relative overflow-hidden pt-32 pb-0">
             <div class="mt-24 flex justify-center">
