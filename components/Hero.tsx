@@ -4,7 +4,7 @@ import { Dots } from "./Dots.tsx";
 
 export function Hero() {
   return (
-    <div class="relative overflow-hidden pt-16 md:pt-32 pb-0">
+    <div class="relative overflow-hidden pt-32 pb-0">
       <div class="mt-24 flex justify-center">
         <div class="flex justify-center w-full overflow-hidden">
           <div class="absolute w-full bottom-0 top-0 mt-auto mb-auto ml-auto mr-auto left-0 right-0 overflow-hidden">
