@@ -4,13 +4,13 @@ import { Dots } from "./Dots.tsx";
 
 export function Hero() {
   return (
-    <div class="relative overflow-hidden pt-16 md:pt-32 pb-0">
+    <div class="relative overflow-hidden pt-0 md:pt-32 pb-0">
       <div class="mt-24 flex justify-center">
         <div class="flex justify-center w-full overflow-hidden">
           <div class="absolute w-full bottom-0 top-0 mt-auto mb-auto ml-auto mr-auto left-0 right-0 overflow-hidden">
             <div
               class="absolute bg-primary-300 filter blur-2xl rounded-full bottom-0 top-0 mt-auto mb-auto ml-auto mr-auto left-0 right-0"
-              style="max-width: 30rem; aspect-ratio: 1/1;"
+              style="max-width: 20rem; aspect-ratio: 1/1;"
             ></div>
 
             {/* Typescript icon */}
@@ -70,17 +70,17 @@ export function Hero() {
             <Dots></Dots>
           </div>
 
-          <div class="relative" style="height: 550px;">
+          <div class="relative" style="height: 440px;">
             <picture>
               <source
                 type="image/webp"
                 srcset={asset("/torso.webp")}
-                style="max-height: 550px; width: auto;"
+                style="max-height: 440px; width: auto;"
                 alt="photo of Jack Isherwood"
               />
               <img
                 src={asset("/torso.png")}
-                style="max-height: 550px; width: auto;"
+                style="max-height: 440px; width: auto;"
                 alt="photo of Jack Isherwood"
               />
             </picture>

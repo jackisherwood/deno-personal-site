@@ -5,7 +5,7 @@ type SatelliteProps = {
 };
 
 export function Satellite(props: SatelliteProps) {
-  const style = `transform: rotate(${props.startRotation}deg) translate(20rem) rotate(-${props.startRotation}deg)`;
+  const style = `transform: rotate(${props.startRotation}deg) translate(15rem) rotate(-${props.startRotation}deg)`;
 
   const parentClass = `${
     props.border ? "border border-2" : ""
@@ -14,7 +14,7 @@ export function Satellite(props: SatelliteProps) {
   return (
     <div
       class={parentClass}
-      style="height: 40rem; width: 40rem; max-width: 100%"
+      style="height: 30rem; width: 30rem; max-width: 100%"
     >
       <div class="relative w-full h-full animate-orbit">
         <div

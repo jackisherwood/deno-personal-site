@@ -3,10 +3,10 @@ import {Dot, DotProps} from "./Dot.tsx"
 import * as R from "ramda"
 
 function getPositions(): DotProps[] {
-  const numberOfDots = 30
-  const minimumRadius = 25
+  const numberOfDots = 50
+  const minimumRadius = 20
   const maximumRadius = 45
-  const maximumScale = 5
+  const maximumScale = 4
 
   return R.times(() => {
     const radius = (maximumRadius - minimumRadius) * Math.random() + minimumRadius
