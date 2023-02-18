@@ -1,15 +1,15 @@
-import { JSX } from "preact";
-
 type SatelliteProps = {
-  startRotation: number,
-  border: boolean,
-  children: any
-}
+  startRotation: number;
+  border: boolean;
+  children: any;
+};
 
 export function Satellite(props: SatelliteProps) {
-  const style = `transform: rotate(${props.startRotation}deg) translate(20rem) rotate(-${props.startRotation}deg)`
+  const style = `transform: rotate(${props.startRotation}deg) translate(20rem) rotate(-${props.startRotation}deg)`;
 
-  const parentClass = `${props.border ? "border border-2" : ""} absolute rounded-full bottom-0 top-0 mt-auto mb-auto ml-auto mr-auto left-0 right-0 hidden md:block`
+  const parentClass = `${
+    props.border ? "border border-2" : ""
+  } absolute rounded-full bottom-0 top-0 mt-auto mb-auto ml-auto mr-auto left-0 right-0 hidden md:block`;
 
   return (
     <div
@@ -27,5 +27,5 @@ export function Satellite(props: SatelliteProps) {
         </div>
       </div>
     </div>
-  )
+  );
 }
