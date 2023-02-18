@@ -17,7 +17,7 @@ export default function Home() {
               <div class="flex justify-center w-full">
                 <div class="absolute w-full bottom-0 top-0 mt-auto mb-auto ml-auto mr-auto left-0 right-0">
                   <div
-                    class="absolute bg-primary-300 filter blur-2xl rounded-full bottom-0 top-0 mt-auto mb-auto ml-auto mr-auto left-0 right-0 animate-blob"
+                    class="absolute bg-primary-300 filter blur-2xl rounded-full bottom-0 top-0 mt-auto mb-auto ml-auto mr-auto left-0 right-0"
                     style="height: 30rem; width: 30rem; max-width: 100%"
                   ></div>
 
