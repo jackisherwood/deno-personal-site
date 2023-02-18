@@ -102,9 +102,8 @@ export default function Home() {
               </h2>
               <p class="mt-4 max-w-3xl text-lg text-secondary-200">
                 I am a software developer living in Edinburgh, Scotland. In my
-                role at Track49 I am using Typescript, Node and Vue to develop
-                applications in Fintech and Insuretech. Aside from software
-                development I enjoy running, hiking, and gaming.
+                role at Track49 I am using Typescript, Node and Vue to develop Fintech and Insuretech applications. When I am not building software
+                I enjoy running, hiking, and gaming.
               </p>
               <div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
                 <div>
