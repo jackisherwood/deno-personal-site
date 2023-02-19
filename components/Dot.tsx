@@ -13,7 +13,7 @@ export function Dot(props: DotProps) {
   // const rotationClass = props.direction == 1 ? "animate-orbit" : "animate-reverse-orbit"
   // const rotationClass = ""
   const keyframe       = props.direction == 1 ? "spin-right" : "spin-left"
-  const animationStyle = `animation: ${5 + (props.radius - 20) * 6 + props.scale}s infinite linear ${keyframe};`
+  const animationStyle = `animation: ${(props.radius - 18) * 4 + (props.scale * 2)}s infinite linear ${keyframe};`
 
   return (
     <div

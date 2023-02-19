@@ -6,12 +6,12 @@ function getPositions(): DotProps[] {
   const numberOfDots = 50
   const minimumRadius = 20
   const maximumRadius = 45
-  const maximumScale = 4
+  const maximumScale = 5
 
   return R.times(() => {
     const radius = (maximumRadius - minimumRadius) * Math.random() + minimumRadius
     const rotation = Math.random() * 360
-    const scale = Math.ceil(Math.random() * maximumScale)
+    const scale = Math.ceil(Math.random() * maximumScale * 40) / 40 + 1
     const direction = Math.random() > .5 ? 1 : 0
 
     return { radius, rotation, scale, direction }
