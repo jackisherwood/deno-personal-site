@@ -21,8 +21,6 @@ function getPositions(): DotProps[] {
 export function Dots() {
   const positions = getPositions()
 
-  console.log(positions)
-
   const dots = R.map((props: DotProps) => (<Dot {...props}></Dot>), positions)
 
   return (
