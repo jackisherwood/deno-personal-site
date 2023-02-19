@@ -1,4 +1,4 @@
-# fresh project
+# My personal website built using Deno Fresh
 
 ### Usage
 
