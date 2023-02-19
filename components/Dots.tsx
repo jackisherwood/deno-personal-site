@@ -6,7 +6,7 @@ function getPositions(): DotProps[] {
   const numberOfDots = 50
   const minimumRadius = 20
   const maximumRadius = 45
-  const maximumScale = 5
+  const maximumScale = 4
 
   return R.times(() => {
     const radius = (maximumRadius - minimumRadius) * Math.random() + minimumRadius
