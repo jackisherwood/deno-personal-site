@@ -6,7 +6,7 @@ export function About() {
           Hi, I'm Jack Isherwood
         </h2>
         <p class="mt-4 max-w-3xl text-lg text-secondary-200">
-          I am a software developer living in Edinburgh, Scotland. In my role at
+          I am a software developer living in Victoria, Canada. In my role at
           Track49 I am using Typescript, Node and Vue to develop Fintech and
           Insuretech applications. When I am not building software I enjoy
           running, hiking, and gaming.
