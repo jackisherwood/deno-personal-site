@@ -129,6 +129,40 @@ export function About() {
             </div>
           </div>
         </div>
+        
+        <div class="mt-16 pt-10 border-t border-white border-opacity-10">
+          <div class="flex items-start">
+            <div class="flex-shrink-0">
+              <span class="flex h-16 w-16 items-center justify-center rounded-md bg-white bg-opacity-10">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-8 h-8 text-white"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M10.5 6a7.5 7.5 0 107.5 7.5h-7.5V6z"
+                  />
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M13.5 10.5H21A7.5 7.5 0 0013.5 3v7.5z"
+                  />
+                </svg>
+              </span>
+            </div>
+            <div class="ml-6">
+              <h3 class="text-xl font-bold text-white">Underwriting Systems</h3>
+              <p class="mt-2 text-base text-secondary-200">
+                I worked on an Underwriting system for Coast Underwriters and Intact Insurance, specializing in creating a report builder for the accounting team and a rating engine for the pleasurecraft system.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
